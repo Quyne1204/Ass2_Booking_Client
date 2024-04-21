@@ -1,0 +1,49 @@
+.tranList {
+    margin: 1rem auto;
+    width: 1140px;
+}
+
+.tranList h2 {
+    margin-bottom: 0.5rem;
+}
+
+.tranList thead {
+    background-color: #4dabf7;
+    color: white;
+}
+
+.tranList table,
+.tranList td,
+.tranList th {
+    border: 1.5px solid #ced4da;
+    padding: 5px;
+}
+
+.tranList table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tranList table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tranList span {
+    padding: 5px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #f1f3f5;
+}
+
+.tranList .booked {
+    background-color: #ff6b6b;
+}
+
+.tranList .checkin {
+    background-color: #51cf66;
+}
+
+.tranList .checkout {
+    background-color: #868e96;
+}
